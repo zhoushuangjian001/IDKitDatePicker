@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		99B9FD75DF5937E4889CA8D4 /* Pods-IDKitDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDKitDatePicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IDKitDatePicker_Tests/Pods-IDKitDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9B706AF3E3F51F6E7C3B6860 /* IDKitDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IDKitDatePicker.podspec; path = ../IDKitDatePicker.podspec; sourceTree = "<group>"; };
+		9B706AF3E3F51F6E7C3B6860 /* IDKitDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IDKitDatePicker.podspec; path = ../IDKitDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1C397037925FFE69948F995 /* Pods-IDKitDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDKitDatePicker_Example.release.xcconfig"; path = "Target Support Files/Pods-IDKitDatePicker_Example/Pods-IDKitDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED897767600C91ED6767753F /* Pods_IDKitDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDKitDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF82E45B2180A61796BF27F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EF82E45B2180A61796BF27F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F02E9443ECCB4E2F13426C11 /* Pods-IDKitDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDKitDatePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-IDKitDatePicker_Tests/Pods-IDKitDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F721287217686CDA7DDD0584 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F721287217686CDA7DDD0584 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				99B9FD75DF5937E4889CA8D4 /* Pods-IDKitDatePicker_Tests.debug.xcconfig */,
 				F02E9443ECCB4E2F13426C11 /* Pods-IDKitDatePicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
