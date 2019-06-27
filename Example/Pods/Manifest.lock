@@ -1,0 +1,16 @@
+PODS:
+  - IDKitDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - IDKitDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  IDKitDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IDKitDatePicker: ddb4a36c9989f7fb8c7c813919864949c2d9c275
+
+PODFILE CHECKSUM: 32497cab69cfcb774626cd66e5ba1ec904cdafcc
+
+COCOAPODS: 1.6.2

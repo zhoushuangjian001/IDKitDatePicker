@@ -1,0 +1,6 @@
+framework module IDKitDatePicker {
+  umbrella header "IDKitDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
