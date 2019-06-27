@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IDKitDatePicker_Example' do
+  pod 'IDKitDatePicker', :path => '../'
+
+  target 'IDKitDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
