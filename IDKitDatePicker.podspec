@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'IDKitDatePicker/Classes/**/*'
-  
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'IDKitDatePicker' => ['IDKitDatePicker/Assets/*.png']
   # }
