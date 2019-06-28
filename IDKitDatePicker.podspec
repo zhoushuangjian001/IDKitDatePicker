@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
                         The control has basic and set properties, four initialization methods and one data refresh method, and four custom proxy methods.
                        DESC
 
-  s.homepage         = 'https://github.com/zhoushuangjian511@163.com/IDKitDatePicker'
+  s.homepage         = 'https://github.com/zhoushuangjian001/IDKitDatePicker.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhoushuangjian511@163.com' => 'zhoushuangjian@algento.com' }
-  s.source           = { :git => 'https://github.com/zhoushuangjian511@163.com/IDKitDatePicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhoushuangjian001/IDKitDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
